@@ -1,6 +1,9 @@
 ---
-layout: layout
+layout: default
 ---
 
-{% assign __ = site.data.languages[site.language] %}
-{% include page.html %}
+<article class="single row gutters">
+  <h2>{{ page.title }}</h2>
+
+  {{ content }}
+</article>

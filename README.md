@@ -1,35 +1,40 @@
-# NexT
+# brume
 
-> 精于心，简于形
+I am not a designer so I cannot impress you with breathtaking Jekyll themes, but brume is something that just came to my mind and I had to build it. It is a clean and simple theme, which has an index page that lists all your blog posts divided by the year, a single post page and a layout for any additional pages you might need.
 
-NexT 是由 [Hexo NexT](https://github.com/iissnan/hexo-theme-next) 移植而来的 Jekyll 主题。<!--commit: f951075d9b739d26b42472431995fa68d08796aa-->
+This is how the "Home" page looks like.
 
-<a href="http://simpleyyt.github.io/jekyll-theme-next/" target="_blank">在线预览 Preview</a> | <a href="http://simpleyyt.github.io" target="_blank">Yitao's Blog</a> | <a href="http://theme-next.simpleyyt.com" target="_blank">NexT 使用文档</a> |  [English Documentation](README.en.md)
+![Home](https://raw.githubusercontent.com/aigarsdz/brume/master/screenshots/home.png)
 
-[![Join the chat at https://gitter.im/simpleyyt/jekyll-theme-next](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jekyll-theme-next/lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+And this is a single post.
 
-![NexT Schemes](http://iissnan.com/nexus/next/next-schemes.jpg)
+![Post](https://raw.githubusercontent.com/aigarsdz/brume/master/screenshots/post_1.png)
 
+![Post. More content examples.](https://raw.githubusercontent.com/aigarsdz/brume/master/screenshots/post_2.png)
 
-## 浏览器支持 Browser support
+## Usage
 
-![Browser support](http://iissnan.com/nexus/next/browser-support.png)
+Brume can be installed just like any other Jekyll theme as described [here](https://jekyllrb.com/docs/themes/#installing-a-theme),
+but there are a couple of additional steps you have to take.
 
+1. All the links are defined in a file *_data/links.yml*, therefore you'll have to create a *_data*
+directory and put this file there in order for navigation to be displayed.
+2. Brume uses `home` layout for the home page (like the default Jekyll theme). All you need to do
+is create an *index.html* or *index.md* file with `layout: home`. If you want the home page to be
+listed in the navigation you have to add `title` to it's front matter that matches
+the title you used for the home page link in the *links.yml* file. Titles are used to indicate
+the current page.
 
-## 贡献 Contributing
+## Theme customization
 
-欢迎提交问题与需求，修复代码。
+This theme has 4 predefined colors that can be used for links:
 
+- azul
+- ruby
+- amber
+- avocado
 
-## 开发 Development
+By default it uses *avocado*, but if you want to select another one just change the `color_scheme` setting in
+*_config.yml* file.
 
-NexT 主旨在于简洁优雅且易于使用，所以首先要尽量确保 NexT 的简洁易用性。
-
-NexT is built for easily use with elegant appearance. First things first, always keep things simple.
-
-
-## 捐赠
-
-支付宝捐赠链接还是要有的，万一真的有人捐呢。
-
-![支付宝扫码捐赠](http://p1.bpimg.com/567571/9a4a158daee8aa69.png)
+Express your thoughts about brume on Twitter [@aigarsdz](http://twitter.com/aigarsdz), and help me make it better!
