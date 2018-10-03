@@ -1,13 +1,18 @@
-title: Five Hundred Miles
-author: jieshi cheng
-description: It's a blog of my thinking. Include CS technique and life experience
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-highlighter: null
-permalink: /:title
+# Site settings
+title: blog for CJS
+email: 951497836@qq.com
+description: "爱好广泛，喜欢尝试新领域，不定期会更新计算机技术、个人回忆、社科人文等文章<br />相关链接：<br />github:https://github.com/jieshicheng<br />知乎ID:Linkcheng<br />email: 951497836@qq.com"
+url: "www.bincjs.cn" # the base hostname & protocol for your site
+twitter_username: linkcheng
+github_username:  jieshicheng
+name: linkcheng
 
-url:
-baseurl:
-
-# Custom options:
-# color_scheme: azul|ruby|amber|avocado
-# color_scheme: avocado
+# Build settings
+markdown: kramdown
