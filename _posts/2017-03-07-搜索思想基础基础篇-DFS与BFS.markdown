@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "搜索思想——DFS & BFS(基础基础篇)"
-data: 2017-03-07 11:49:23 +200
+date: 2017-03-07 11:49:23 +200
 ---
 #### DFS（Deep First Search）深度优先搜索。
 #### BFS（Breath First Search）广度优先搜索。
