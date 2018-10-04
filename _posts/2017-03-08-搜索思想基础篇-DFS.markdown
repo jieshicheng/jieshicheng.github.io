@@ -103,13 +103,13 @@ new_row , new_col分别是要去探索新的点的坐标，首先我们判断该
 
 如上篇文章所说，DFS的关键点便在于递归与回溯，在本题目中，我们通过对于第一个发现的‘w’点point1递归搜索它周围为‘w’的点，我们寻找到point2，并将poing1设为 ‘。’
 
-![picture 1](https://pic3.zhimg.com/80/v2-8acdf60eec8fc7d8bd9d1139fa296d33_hd.jpg)
+![picture 1](/assets/post_picture/post2.1.jpg)
 
-![picture 2](https://pic2.zhimg.com/80/v2-8e0aaf562c4ad2039d41b8ad22f00aaa_hd.jpg)
+![picture 2](/assets/post_picture/post2.2.jpg)
 
 我们又递归下去搜索point2周围的为‘w’的点point3,poing2也设为 ‘。’
 
-![picture 3](https://pic1.zhimg.com/80/v2-12a5d4f2e83a4e79dd2a3cf006552469_hd.jpg)
+![picture 3](/assets/post_picture/post2.3.jpg)
 
 递归到point3时，它的八个方位都没有水洼了，则回溯到point2的函数体内，再探寻point2这个点的其它方。
 
@@ -117,7 +117,7 @@ new_row , new_col分别是要去探索新的点的坐标，首先我们判断该
 
 我们也可以断定，我们发现了并且计算清楚了一个水洼。下图为搜索point1点完毕后的图的形状
 
-![picture 4](https://pic3.zhimg.com/80/v2-2f8d6dbf7581076feef30659091ad06d_hd.jpg)
+![picture 4](/assets/post_picture/post2.4.jpg)
 
 在这道题目中，主要侧重的方向是函数的递归与函数的回溯。总体上是非常简单的。
 

@@ -45,7 +45,7 @@ date: 2017-11-14 01:12:12 +200
 
 而上述题目的模型其实也很简单，其实就是对于每一个物品放与不放两种情况都做考虑，然后再分别去计算后续的情况
 
-![picture 1](https://pic3.zhimg.com/80/v2-d4a32b18ca884d5ef3e159b90c96f965_hd.jpg)
+![picture 1](/assets/post_picture/post4.1.jpg)
 
 这里不做过多解释，感兴趣的同学可以去看我相关文章(一只脚迈入DP的海洋)。
 
